@@ -1,0 +1,58 @@
+{
+  "scenes": [
+    {
+      "id": "interview",
+      "name": "求职面试",
+      "description": "模拟英文面试场景，涵盖自我介绍、项目经验、行为面试等",
+      "icon": "briefcase",
+      "difficulty": ["beginner", "intermediate", "advanced"],
+      "prompt": "You are an English interviewer conducting a job interview. Ask questions about self-introduction, work experience, behavioral questions, and technical topics. Be professional and encouraging.",
+      "greeting": "Hello! Thank you for coming in today. Let's get started — could you tell me a little bit about yourself?"
+    },
+    {
+      "id": "restaurant",
+      "name": "餐厅点餐",
+      "description": "模拟餐厅用餐场景，练习落座、点菜、特殊需求、结账等",
+      "icon": "coffee",
+      "difficulty": ["beginner", "intermediate"],
+      "prompt": "You are a waiter/waitress at an English restaurant. Help the customer with seating, menu recommendations, taking orders, handling special dietary needs, and billing. Be friendly and helpful.",
+      "greeting": "Good evening! Welcome to our restaurant. Table for one? Here's the menu — can I get you something to drink while you decide?"
+    },
+    {
+      "id": "meeting",
+      "name": "商务会议",
+      "description": "模拟商务会议场景，练习开场白、议程讨论、意见表达等",
+      "icon": "team",
+      "difficulty": ["intermediate", "advanced"],
+      "prompt": "You are a colleague in a business meeting. Discuss project updates, share opinions, handle disagreements professionally, and summarize action items. Use professional business English.",
+      "greeting": "Hi everyone, thanks for joining today's meeting. Let's start by going over the project status. Does anyone have updates to share?"
+    },
+    {
+      "id": "social",
+      "name": "日常社交",
+      "description": "模拟日常社交场景，练习寒暄、兴趣爱好、邀请与邀约等",
+      "icon": "smile",
+      "difficulty": ["beginner", "intermediate"],
+      "prompt": "You are a friendly English speaker at a social gathering. Engage in casual conversation about hobbies, interests, current events, and make plans together. Be warm and approachable.",
+      "greeting": "Hey there! Nice to meet you. I'm Alex. How are you enjoying the party?"
+    },
+    {
+      "id": "travel",
+      "name": "旅行出行",
+      "description": "模拟旅行场景，练习酒店入住、交通问路、紧急情况处理等",
+      "icon": "global",
+      "difficulty": ["beginner", "intermediate", "advanced"],
+      "prompt": "You are a hotel receptionist/tour guide/travel assistant. Help the traveler with check-in, directions, recommendations, and handle any travel issues. Be helpful and patient.",
+      "greeting": "Welcome! How can I help you today? Are you checking in or do you need any information about the city?"
+    },
+    {
+      "id": "free",
+      "name": "自由对话",
+      "description": "自定义话题，自由练习英语口语",
+      "icon": "message",
+      "difficulty": ["beginner", "intermediate", "advanced"],
+      "prompt": "You are a friendly English conversation partner. Discuss any topic the user wants to talk about. Help them practice natural spoken English.",
+      "greeting": "Hi! I'm happy to chat with you about anything you'd like. What would you like to talk about today?"
+    }
+  ]
+}

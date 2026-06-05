@@ -16,4 +16,6 @@ export const createSession = (data: CreateSessionReq) => api.post('/sessions', d
 
 export const getSession = (id: number) => api.get(`/sessions/${id}`)
 
+export const endSession = (id: number) => api.put(`/sessions/${id}/end`)
+
 export default api
