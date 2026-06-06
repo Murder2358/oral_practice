@@ -12,7 +12,7 @@ import (
 	"oral_practice/internal/service"
 	"oral_practice/pkg/llm"
 
-	"gorm.io/driver/sqlite"
+	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"
 )
 
